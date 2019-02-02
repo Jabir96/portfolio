@@ -1,0 +1,457 @@
+* {
+    margin: 0; 
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+/** TOP Header **/
+
+.developer {
+    text-align: center;
+    color: rgb(255, 187, 1);
+    margin-top: 2%;
+}
+
+/** Main Image **/
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 187, 1);
+    z-index: -1;
+}
+
+/** 1st Background Orange Box **/
+
+.orange-box {
+    background: rgb(255, 196, 34);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    z-index: -2;
+}
+
+
+/** About & Skills h2 (Header) **/
+
+
+.about-header {
+    color: white;
+    margin-left: 20%;
+    margin-right: 60%;
+    font-size: 40px;
+    position: absolute;
+    border-bottom: 2px solid white;
+}
+
+.skills-header {
+    color: white;
+    position: absolute;
+    left: 71.5%;
+    font-size: 40px;
+    border-bottom: 2px solid white;
+}
+
+/** About & Skills Design Straight line**/
+
+.straight-line-1 {
+    width: 50px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 80%;
+    top: 7%;
+    
+}
+.straight-line-2 {
+    width: 50px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 20%;
+    top: 7%;
+}
+
+/** About (Social Media Links) Below**/
+
+.linked-in-ping {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 15%;
+
+}
+
+.twitter-ping {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 32%;
+
+}
+
+.google-plus-ping {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 23.5%;
+    top: 45%;
+}
+
+
+/** Skills meter below **/
+
+
+
+.html-skill-line-white-3 {
+    width: 150px;
+    height: 10px;
+    background: white;
+    border: 2px solid white;
+    border-radius: 0  50% 50% 0;
+    position: absolute;
+    top: 38.2%;
+    left: 72%;
+}
+
+.html-skill-line-orange-4 {
+    width: 120px;
+    height: 10px;
+    background: rgb(255, 196, 34);
+    border: 2px solid white;
+    border-radius: 0 15% 15% 0;
+    position: absolute;
+    top: 38.2%;
+    left: 72%;
+}
+
+.css-skill-line-white-5 {
+    width: 150px;
+    height: 10px;
+    background: white;
+    border: 2px solid white;
+    border-radius:0 50% 50% 0;
+    position: absolute;
+    top: 42.2%;
+    left: 72%;
+}
+
+.css-skill-line-orange-6 {
+    width: 100px;
+    height: 10px;
+    background: rgb(255, 196, 34);
+    border: 2px solid white;
+    border-radius: 0 15% 15% 0;
+    position: absolute;
+    top: 42.2%;
+    left: 72%;
+}
+
+.javascript-skill-line-white-7 {
+    width: 150px;
+    height: 10px;
+    background: white;
+    border: 2px solid white;
+    border-radius:0 50% 50% 0;
+    position: absolute;
+    top: 46.2%;
+    left: 72%;
+}
+
+.javascript-skill-line-orange-8 {
+    width: 80px;
+    height: 10px;
+    background: rgb(255, 196, 34);
+    border: 2px solid white;
+    border-radius: 0 15% 15% 0;
+    position: absolute;
+    top: 46.2%;
+    left: 72%;
+}
+
+.python-skill-line-white-9 {
+    width: 150px;
+    height: 10px;
+    background: white;
+    border: 2px solid white;
+    border-radius:0 50% 50% 0;
+    position: absolute;
+    top: 50.2%;
+    left: 72%;
+}
+
+.python-skill-line-orange-10 {
+    width: 20px;
+    height: 10px;
+    background: rgb(255, 196, 34);
+    border: 2px solid white;
+    border-radius: 0 15% 15% 0;
+    position: absolute;
+    top: 50.2%;
+    left: 72%;
+}
+
+.html-skill-meter {
+    position: absolute;
+    top: 20.5%;
+    left: 72%;
+}
+
+.css-skill-meter {
+    position:absolute;
+    top: 30.5%;
+    left: 72%;
+}
+
+
+.javascript-skill-meter {
+    position: absolute;
+    top: 40.5%;
+    left: 72%;
+}
+
+.python-skill-meter {
+    position: absolute;
+    top: 50.5%;
+    left: 72%;
+}
+
+
+
+/** Skill h3 **/
+
+.h3-html {
+    position: absolute;
+    left: 60%;
+    top: 20.1%;
+}
+
+.h3-css {
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
+
+.h3-javascript {
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+
+.h3-python {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+}
+
+
+/** Skill h4 percentage below **/
+
+.h4-html-percentage {
+    position: absolute;
+    left: 83%;
+    top: 20.1%
+}
+
+
+.h4-css-percentage {
+    position: absolute;
+    left: 83%;
+    top: 30%
+}
+
+.h4-javascript-percentage {
+    position: absolute;
+    left: 83%;
+    top: 40%
+}
+
+.h4-python-percentage {
+    position: absolute;
+    left: 83%;
+    top: 50%;
+}
+
+/** Animation **/
+
+.orange-box {
+    top:-400px;
+    animation: drop 2s linear forwards;
+}
+
+@keyframes drop {
+    0% { opacity: 0;
+
+    }
+
+    70% {
+        transform: translateY(700px);
+    }
+
+    100% { transform: translateY(625px);}
+}
+
+@media (max-width: 650px) {
+    .about-header {
+        font-size: 20px;
+    }
+
+    .skills-header {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    .html-skill-line-white-3 {
+        width: 50px;
+        height: 10px;
+        background: white;
+        border: 2px solid white;
+        border-radius: 0  50% 50% 0;
+        position: absolute;
+        top: 36%;
+        left: 70%;
+    }
+    
+    .html-skill-line-orange-4 {
+        width: 35px;
+        height: 10px;
+        background: rgb(255, 196, 34);
+        border: 2px solid white;
+        border-radius: 0 15% 15% 0;
+        position: absolute;
+        top: 36%;
+        left: 70%;
+    }
+    
+    .css-skill-line-white-5 {
+        width: 50px;
+        height: 10px;
+        background: white;
+        border: 2px solid white;
+        border-radius:0 50% 50% 0;
+        position: absolute;
+        top: 40%;
+        left: 70%;
+    }
+    
+    .css-skill-line-orange-6 {
+        width: 30px;
+        height: 10px;
+        background: rgb(255, 196, 34);
+        border: 2px solid white;
+        border-radius: 0 15% 15% 0;
+        position: absolute;
+        top: 40%;
+        left: 70%;
+    }
+    
+    .javascript-skill-line-white-7 {
+        width: 50px;
+        height: 10px;
+        background: white;
+        border: 2px solid white;
+        border-radius:0 50% 50% 0;
+        position: absolute;
+        top: 44%;
+        left: 70%;
+    }
+    
+    .javascript-skill-line-orange-8 {
+        width: 20px;
+        height: 10px;
+        background: rgb(255, 196, 34);
+        border: 2px solid white;
+        border-radius: 0 15% 15% 0;
+        position: absolute;
+        top: 44%;
+        left: 70%;
+    }
+    
+    .python-skill-line-white-9 {
+        width: 50px;
+        height: 10px;
+        background: white;
+        border: 2px solid white;
+        border-radius:0 50% 50% 0;
+        position: absolute;
+        top: 48%;
+        left: 70%;
+    }
+    
+    .python-skill-line-orange-10 {
+        width: 10px;
+        height: 10px;
+        background: rgb(255, 196, 34);
+        border: 2px solid white;
+        border-radius: 0 15% 15% 0;
+        position: absolute;
+        top: 48%;
+        left: 70%;
+    }
+    
+    .html-skill-meter {
+        position: absolute;
+        top: 19.1%;
+        left: 70%;
+    }
+    
+    .css-skill-meter {
+        position:absolute;
+        top: 29.1%;
+        left: 70%;
+    }
+    
+    
+    .javascript-skill-meter {
+        position: absolute;
+        top: 39.1%;
+        left: 70%;
+    }
+    
+    .python-skill-meter {
+        position: absolute;
+        top: 49.1%;
+        left: 70%;
+    }
+
+    .h3-html {
+        position: absolute;
+        left: 46%;
+        top: 20.1%;
+    }
+    
+    .h3-css {
+        position: absolute;
+        left: 46%;
+        top: 30%;
+    }
+    
+    .h3-javascript {
+        position: absolute;
+        left: 46%;
+        top: 40%;
+    }
+    
+    .h3-python {
+        position: absolute;
+        left: 46%;
+        top: 50%;
+    }
+}
